@@ -406,20 +406,12 @@ nav.scroll {
 
 .home-img {
     width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 20px;
 
 
     img {
-        width: 400px;
-        height: 400px;
-        border-radius: 5px;
-
-
-        &:hover {
-            box-shadow: 2px 4px 6px #333333;
-        }
+        width: 100%;
+        height: 100%;
     }
 }
 
@@ -428,16 +420,9 @@ nav.scroll {
         font-size: 16px;
         line-height: 1.5;
     }
-
-    .home-img {
-        img {
-            width: 250px;
-            height: 250px;
-        }
-    }
 }
 
-@media(max-width:600px) {
+@media(max-width:768px) {
     .home-content {
         width: 100%;
         margin-bottom: 20px;
@@ -445,7 +430,7 @@ nav.scroll {
 
     .home-img {
         width: 100%;
-        justify-content: end;
+        padding: 0;
     }
 }
 
@@ -455,11 +440,6 @@ nav.scroll {
     padding: 50px 0;
     display: none;
 }
-
-
-
-
-
 
 .bio-text {
     line-height: 1.5;
