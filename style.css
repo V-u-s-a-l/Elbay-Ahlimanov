@@ -386,6 +386,7 @@ nav.scroll {
     }
 }
 
+
 .home-content {
     width: 50%;
 }
@@ -452,7 +453,10 @@ nav.scroll {
 
 #bio {
     padding: 50px 0;
+    display: none;
 }
+
+
 
 
 
@@ -621,6 +625,12 @@ nav.scroll {
 
 
 /* Article */
+
+#article {
+    display: none;
+}
+
+
 
 .article-boxes {
     padding: 20px;
