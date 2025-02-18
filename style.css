@@ -237,7 +237,7 @@ nav.scroll {
 }
 
 
-@media(max-width:992px) {
+@media only screen and (max-width:992px) {
     .nav-bar {
         gap: 100px;
     }
@@ -299,7 +299,7 @@ nav.scroll {
     }
 }
 
-@media(max-width:768px) {
+@media only screen and (max-width:768px) {
     nav {
         height: 80px;
     }
@@ -318,7 +318,7 @@ nav.scroll {
     }
 }
 
-@media(max-width:600px) {
+@media only screen and (max-width:600px) {
     .magnifying-box {
         right: -100px;
         top: 50px;
@@ -329,7 +329,7 @@ nav.scroll {
     }
 }
 
-@media(max-width:401px) {
+@media only screen and (max-width:401px) {
     .nav-list {
         width: 100%;
     }
@@ -362,7 +362,7 @@ nav.scroll {
 
 }
 
-@media(max-width:300px) {
+@media only screen and (max-width:300px) {
     .magnifying-box {
         right: -55px;
 
@@ -415,14 +415,14 @@ nav.scroll {
     }
 }
 
-@media(max-width:992px) {
+@media only screen and (max-width:992px) {
     .home-text {
         font-size: 16px;
         line-height: 1.5;
     }
 }
 
-@media(max-width:768px) {
+@media only screen and (max-width:768px) {
     .home-content {
         width: 100%;
         margin-bottom: 20px;
@@ -559,13 +559,13 @@ nav.scroll {
 
 }
 
-@media(max-width:992px) {
+@media only screen and (max-width:992px) {
     .contact-item {
         width: 33%;
     }    
 }
 
-@media(max-width:768px) {
+@media only screen and (max-width:768px) {
     .bio-text {
         font-size: 16px;
     }
@@ -580,7 +580,7 @@ nav.scroll {
     }
 }
 
-@media(max-width:600px) {
+@media only screen and (max-width:600px) {
     .bio-text {
         font-size: 16px;
     }
@@ -614,8 +614,6 @@ nav.scroll {
 
 .article-boxes {
     padding: 20px;
-    /* display: flex;
-    overflow-x: auto; */
 }
 
 .article-box {
@@ -623,7 +621,6 @@ nav.scroll {
     background-color: #fcfcfc;
     border: 1px solid #e1e1e1;
     margin-top: 20px;
-    /* min-width: 100%; */
 
 }
 
@@ -726,13 +723,13 @@ footer {
     }
 }
 
-@media(max-width:768px) {
+@media only screen and (max-width:768px) {
     .card-body {
         display: block;
     }
 }
 
-@media(max-width:400px) {
+@media only screen and (max-width:400px) {
     .card-body {
         padding: 0 10px;
     }
